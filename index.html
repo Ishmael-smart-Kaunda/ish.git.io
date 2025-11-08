@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Smart Lodge</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/fontawesome-free-7.0.1-web/css/all.css"> 
+
+</head>
+<body> 
+    
+       
+        <header>
+            <div class="overlay"></div>
+                <nav class="navbar">
+                    <div class="logo">i<strong>Smart</strong></div> 
+                    <ul class="nav-links">
+                        <button class="close-btn" id="close-btn">
+                            <i class="fas fa-times"></i>
+                        </button> 
+                        <li class="link" ><a href="#">Home</a></li>
+                        <li class="link"><a href="#rooms">Rooms</a></li>
+                        <li class="link"><a href="#gallery-section">Gallery</a></li>
+                        <li class="link"><a href="#about">About Us</a></li>
+                        <li class="link"><a href="#contact">Contact Us</a></li>
+                    </ul> 
+                    <div class="hamburger">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </div>
+                </nav>
+           <!-- <button class="get-in-touch" id="get-in-touch">Get in touch</button> -->
+            
+        </header>
+        
+        <section class="welcome-section">
+          <div class="welcome-content">
+            <h1>Welcome to <b>Smart Lodge</b></h1>
+            <p>Experience peace, comfort and nature's beauty.</p>
+            <a href="#rooms" class="book-btn">Book Now</a>
+          </div>
+        </section>
+
+        <section class="rooms-section" id="rooms">
+            <h2>Our Rooms</h2>
+            <p class="section-subtitle">Experience comfort and luxury in every corner</p>
+            <div class="rooms-container">
+                <div class="room-card">
+                    <img src="images/duplex1.jpeg" alt="Deluxe Room">
+                    <h3>Deluxe Room</h3>
+                    <p>A cozy modern room featuring a king-size bed, private balcony, and scenic views.</p>
+                    <span class="price">MK 35,000 / Night</span>
+                    <button class="view-btn" id="view-btn" data-room="dulexe" data-price="35k">Views details</button>
+                </div>
+
+                <div class="room-card">
+                    <img src="images/duplex2.jpeg" alt="Deluxe Room">
+                    <h3>Duluxe Room</h3>
+                    <p>A spacious suite with living area, work desk, and elegant design for business travelers.</p>
+                    <span class="price">MK 35,000 / Night</span>
+                    <button class="view-btn" id="view-btn" data-room="dulexe">Views details</button>
+                </div>
+
+                <div class="room-card">
+                    <img src="images/duplex3.jpeg" alt="Deluxe Room">
+                    <h3>Dulexe Room</h3>
+                    <p>Perfect for families, offering two bedrooms, a lounge, and a garden access.</p>
+                    <span class="price">MK 35,000 / Night</span>
+                   <button class="view-btn" id="view-btn" data-room="dulexe">Views details</button>
+                </div>
+
+
+                <div class="room-card">
+                    <img src="images/executive1.jpeg" alt="Executive Room">
+                    <h3>Executive Room</h3>
+                    <p>A cozy modern room featuring a king-size bed, private balcony, and scenic views.</p>
+                    <span class="price">MK 130,000 / Night</span>
+                    <button class="view-btn" id="view-btn"  data-room="executive">Views details</button>
+                </div>
+
+                <div class="room-card">
+                    <img src="images/executive2.jpeg" alt="Executive Room">
+                    <h3>Executive Suite</h3>
+                    <p>A spacious suite with living area, work desk, and elegant design for business travelers.</p>
+                    <span class="price">MK 130,000 / Night</span>
+                    <button class="view-btn" id="view-btn" data-room="executive">Views details</button>
+                </div>
+
+                <div class="room-card">
+                    <img src="images/executive3.jpeg" alt="Executive Room">
+                    <h3>Executive Room</h3>
+                    <p>Perfect for families, offering two bedrooms, a lounge, and a garden access.</p>
+                    <span class="price">MK 130,000 / Night</span>
+                    <button class="view-btn" id="view-btn" data-room="executive">Views details</button>
+                </div>
+
+
+                <div class="room-card">
+                    <img src="images/family1.jpeg" alt="Family Room">
+                    <h3>Family Room</h3>
+                    <p>A cozy modern room featuring a king-size bed, private balcony, and scenic views.</p>
+                    <span class="price">MK 60,000 / Night</span>
+                    <button class="view-btn" id="view-btn" data-room="family">Views details</button>
+                </div>
+
+                <div class="room-card">
+                    <img src="images/family2.jpeg" alt="Family Room">
+                    <h3>Family Room</h3>
+                    <p>A spacious suite with living area, work desk, and elegant design for business travelers.</p>
+                    <span class="price">MK 60,000 / Night</span>
+                    <button class="view-btn" id="view-btn" data-room="family">Views details</button>
+                </div>
+
+                <div class="room-card">
+                    <img src="images/family3.jpeg" alt="Family Room">
+                    <h3>Family Room</h3>
+                    <p>Perfect for families, offering two bedrooms, a lounge, and a garden access.</p>
+                    <span class="price">MK 60,000 / Night</span>
+                    <button class="view-btn" id="view-btn" data-room="family">Views details</button>
+                </div>
+
+
+
+
+            </div>
+        </section>
+
+        <!-- GALLERY-->
+         <section class="gallery-section" id="gallery-section">
+            <h2>Comfort at every sight</h2>
+            <p class="section-subtitle">Grab the moments that last</p>
+            <!-- Picture gallery-->
+            <div class="picture-gallery" id="picture-gallery">
+                 <figure class="gallery-item">
+                    <img class="img one"  src="images/room.jpeg" alt="exterior">
+                </figure>  
+                 <figure class="gallery-item wide">
+                    <img class="image " src="images/array/array1/outer1.jpeg" alt="exterior">
+                </figure> 
+                 <figure class="gallery-item">
+                    <img class="image " src="images/array/array2/array2a.jpeg" alt="exterior">
+                </figure> 
+                 <figure class="gallery-item wide">
+                    <img class="image " src="images/array/array3/array3a.jpeg" alt="exterior">
+                </figure> 
+                 <figure class="gallery-item">
+                    <img class="image" src="images/room.jpeg" alt="exterior">
+                </figure> 
+                 <figure class="gallery-item">
+                    <img class="image" src="images/room.jpeg" alt="exterior">
+                </figure> 
+                 <figure class="gallery-item tall">
+                    <img class="image" src="images/room.jpeg" alt="exterior">
+                </figure> 
+                 <figure class="gallery-item tall">
+                    <img class="image" src="images/room.jpeg" alt="exterior">
+                </figure> 
+                <figure class="gallery-item">
+                    <img  class="image"  src="images/room.jpeg" alt="exterior">   
+                </figure>
+                <figure class="gallery-item">
+                    <img  class="image"  src="images/room.jpeg" alt="exterior">
+                </figure>
+                <figure class="gallery-item">
+                    <img  class="image" src="images/room.jpeg" alt="exterior">
+                </figure>
+                
+            </div>
+
+            <!--Video gallery
+            <div class="video-gallery" id="video-gallery">
+                <h3>Experience our Lodge in motion</h3>
+
+                <h2 class="number">1</h2>
+                <h2 class="number">10</h2>
+                <h2 class="number">100</h2>
+                <h2 class="number">1000</h2>
+
+                <ul class="video-list">
+                    <li>
+                    
+                        <source src="videos/vizara.mp4" type="video/mp4">  
+                   
+                       
+                    </li>
+                </ul>
+
+
+                <dialog class="video-modal" id="video-modal">
+                    <iframe id="video-frame" src="" frameborder="0" allowfullscreen></iframe>
+                </dialog>
+
+            </div>
+            -->
+         </section>
+
+         <section class="pricing-section" id="pricing-section">
+            <h2>Book your Room</h2>
+            <div class="pricing-container">
+                <span class="pricing-card" data-room="family">
+                    <h3>Family Room</h3>
+                    <p>MK 60,000 per night</p>
+                    <ul>
+                        <li>1 Queen size Bed</li>
+                        <li>Free Wi-Fi</li>
+                        <li>Breakfast included</li>
+                    </ul>
+                    <button class="book-btn">Book Now</button>
+                </span>
+
+                 <span class="pricing-card" data-room="dulexe">
+                    <h3>Dulexe Room</h3>
+                    <p>MK 80,000 per night</p>
+                    <ul>
+                        <li>1 King size Bed</li>
+                        <li>Balcony View</li>
+                        <li>Room Service</li>
+                    </ul>
+                    <button class="book-btn">Book Now</button>
+                </span>
+
+                 <span class="pricing-card" data-room="executive">
+                    <h3>Executive Suite</h3>
+                    <p>MK 130,000 per night</p>
+                    <ul>
+                        <li>2 Rooms + Lounge</li>
+                        <li>Mini Bar</li>
+                        <li>Personal Assistant</li>
+                    </ul>
+                    <button class="book-btn">Book Now</button>
+                </span>
+
+
+
+
+            </div>
+         </section>
+        
+        <section class="contact-section" id="contact">
+            <h2> Contact Us</h2>
+            <p>We would love to here from you. Get in touch for bookings, inqueries, or special request.</p>
+            <div class="contact-container">
+                <form class="contact-form">
+                    <input type="text" placeholder="Your name">
+                    <input type="email"placeholder="Email">
+                    <textarea placeholder="Your message" rows="5" required>
+
+                    </textarea>
+                    <button type="submit">Send</button>
+                </form>
+
+                <address class="contact-infor">
+                    <h3>Get in touch</h3>
+                    <p><strong>Phone : </strong><a href="+265981457286">+265 98 145 72 86</a></p>
+                    <p><strong>Email : </strong><a href="ishmaelsmart005@gmail.com">ishmaelsmart005@gmail.com</a></p>
+                    <p><strong>address : </strong>P.O. Box 56, Blantyre, Malawi</p>
+                </address>
+            </div>
+        </section>
+
+
+        <section id="about" class="about-section">
+            <div class="about-container">
+    
+                <div class="about-image">
+                         <img src="images/array4a.jpeg" alt="Our Lodge View">
+                </div>
+
+                <div class="about-content">
+                    <h2>About Us</h2>
+                    <p>
+                    Welcome to <strong>iSmart Lodge</strong> — your peaceful escape nestled in the heart of nature.
+                    We blend comfort, luxury, and tranquility to create a memorable experience for every guest.
+                    </p>
+                    <p>
+                        Whether you're here for relaxation, business, or adventure, our warm hospitality and
+                        personalized services make your stay truly special. Enjoy elegant rooms, breathtaking views,
+                        and a taste of local culture in every detail.
+                    </p>
+                    <a href="#rooms" class="btn-primary">Explore Our Rooms</a>
+                </div>
+
+          </div>
+        </section>
+
+
+
+        <footer class="footer">
+            <div class="footer-container">
+                <span class="footer-section about">
+                    <h3>iSmart Lodge</h3>
+                    <p>Provind Lodging services that please your heart. Quality, comfort and creativity in every sleep</p>
+                
+                
+                </span>
+                <span class="footer-section links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#rooms">Rooms</a></li>
+                        <li><a href="#gallery-section">Gallery</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </span>
+
+                <span class="footer-section contact">
+                    <h4>Contact Us</h4>
+                    <p><i class="fas fa-map-marker"></i> Mzuzu, Malawi</p>
+                    <p><i class="fas fa-phone"></i> +265 98 145 72 86</p>
+                    <p><i class="fas fa-envelope"></i> ishmaelsmart005@gmail.com</p>
+                </span>
+
+                <span class=" footer-section social">
+                    <h4>Stay Connected</h4>
+                    <form >
+                        <input type="email" placeholder="Your email">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        
+                    </div>
+                </span>
+                <span class="footer-bottom">
+                    <p>&copy; 2025 iSmart Lodge | All rights reserved</p>
+                </span>
+            </div>
+        </footer>
+
+
+
+
+
+
+
+
+
+
+    
+
+
+ 
+</body>
+
+    <script src="app.js"></script>
+</html>
